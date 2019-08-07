@@ -1,0 +1,23 @@
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid $light-brown;
+    color: $gray;
+    a {
+        color: $brown;
+        &:hover {
+            color: $black;
+        }
+    }
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 16px;
+        }
+    }
+}
