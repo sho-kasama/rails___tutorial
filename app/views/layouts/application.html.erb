@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsTutorial</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %> <!-- Rails の組み込み関数を使って,application.cssでは全てのメディアタイプを使えるようにしている-->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
